@@ -1,0 +1,32 @@
+.Hero_container {
+    position: relative;
+    z-index: 100;
+}
+
+.Hero-text {
+    position: relative;
+    z-index: 200;
+}
+
+.Hero_backdrop {
+    position: absolute;
+    top: 57px;
+    left: 0;
+    width: 100%;
+    height: 21%;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.4;
+}
+.imdb{
+    color: blue;
+    font-size: 20px;
+}
+.tag{
+    color: rgb(135, 35, 185);
+    font-size: 20px;
+}
+.pop{
+    color: rgb(68, 105, 12);
+    font-size: 20px;
+}
